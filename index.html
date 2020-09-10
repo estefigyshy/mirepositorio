@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Botánica Studio</title>
+	<link rel="stylesheet" href="estilos.css"/> <!-- Link a mi css -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/><!-- Para garantizar una representación adecuada y un zoom táctil para todos los dispositivos, no olvidar agregar el viewport -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"><!-- Debe estar en la carpeta css cuando descargamos el bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/><!-- animaciones -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"><!-- tipografias 1 -->
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><!-- tipografías 2 -->
+</head>
+<body>
+  <header>
+<!-- EMPIEZA EL NAV -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand"  id="colorMenu" href="index.html">BOTÁNICA STUDIO</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTANOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- TERMINA EL NAV  -->
+
+<!-- EMPIEZA CAROUSEL  -->
+  <div class="container-fluid">
+    <section class="row">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="imgFull" class="d-block w-100" src="media/imgbotanica00.jpg" alt="First slide">
+          </div>
+          
+          <div class="carousel-caption d-block">
+              <h2 id="pruebaDeg" class="animate__animated animate__zoomInDown w-responsive mx-auto mb-5">sumergite</h2>
+              <h3 class="animate__animated animate__backInRight w-responsive mx-auto mb-5">en el mundo de la botánica</h3>
+          </div>
+        </div>
+    </section>
+<!-- TERMINA CAROUSEL  -->
+
+
+<!-- EMPIEZA SECTION 1  -->
+    <section class="row">
+      <div class="col-md-6" id="section1">
+        <img src="media/imgSection.jpg" alt="prueba" class="mx-auto d-block img-fluid">
+      </div>
+      <div class="col-md-6" id="section1a">
+        <h3 class="h3defi">Con las manos en la tierra</h3>
+        <p class="w-responsive mx-auto mb-5 fraseSection1 font-italic">"...La belleza de una flor proviene de sus raíces..."</p>
+        <p class="pdefi">Decía el escritor, filósofo y poeta Ralph Waldo Emerson. Sembrar es descubrir un mundo fascinante que te pertenece. Sembrar es parte de nuestra herencia cultural por el simple hecho de que nuestra vida depende al 100% de los alimentos. También es una actividad ideal para disfrutar en familia. La tierra tiene su tecnología (inteligencia) natural, solo necesita que nosotros la ayudemos y ella nos brindará toda su abundancia. Una vez que te pongas con las manos en la “masa” (tierra) vas a ir descubriendo un mundo fascinante que te pertenece.</p>
+        <br>
+        <p class="pdefi">Desde niños aprendimos a plantar, abonar, y regar las plantas. Desarrollamos una mentalidad de trabajo comunitario, del hogar. Aprendimos por tradición familiar, todos se han dedicado al cuidado de las plantas, a la producción de árboles y flores de muchas especies. Pero también (y no menos importante) nos hemos dedicado a leer muchos libros”. </p>
+        <a class="btn" href="nosotros.html" id="buttonSection1">Conocenos</a>
+      </div>
+    </section>
+<!-- TERMINA SECTION 1  -->
+
+<!-- EMPIEZA SECTION 2  -->
+  <section>
+    <div class="row colorSection2">
+      <div class="col-md-4">
+        <img src="media/icon1.png" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid">
+        <h5 class="h5defi">Plantas felices</h5>
+        <p class="pdefi textoCentrado">Descubrir la relación con ellas nos hace más alegres.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="media/icon2.png" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid">
+        <h5 class="h5defi">El arte de plantar</h5>
+        <p class="pdefi textoCentrado">Vivir la experiencia de conectar y trasmitir.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="media/icon3.png" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid">
+        <h5 class="h5defi">Estilo de vida</h5>
+        <p class="pdefi textoCentrado">Adoptar el paso de la Naturaleza: su secreto es la paciencia.</p>
+      </div>
+    </div>
+  </section>
+<!-- TERMINA SECTION 2  -->
+
+<!-- EMPIEZA SECTION 3  -->
+  <section>
+    <h3 class="h3defi tituloCentrado">¿Qué es lo que hacemos?</h3>
+    <div class="row">
+      <div class="col-md-3">
+        <a href="productos.html" id="sinSub">
+          <img src="media/homeprod1.jpg" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid" id="zoomImg">
+          <h5 class="h5defi3">Koke suculentas</h5>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="productos.html" id="sinSub">
+          <img src="media/homeprod2.jpg" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid" id="zoomImg">
+          <h5 class="h5defi3">Jardines botánicos</h5>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="productos.html" id="sinSub">
+          <img src="media/homeprod3.jpg" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid" id="zoomImg">
+          <h5 class="h5defi3">Workshops y talleres</h5>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="productos.html" id="sinSub">
+          <img src="media/homeprod4.jpg" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid" id="zoomImg">
+          <h5 class="h5defi3">Láminas handmade</h5>
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- TERMINA SECTION 3  -->
+
+<!-- EMPIEZA SECTION 4  -->
+  <section>
+    <div class="row colorSection4">
+      <div class="col-md-12">
+        <img src="media/icon4.png" alt="iconoplanta" class="imgsection2 mx-auto d-block img-fluid">
+        <h3 class="h3defi4 textoCentrado4">¿Querés darle vida a tus espacios?</h3>
+        <p class="pdefi4 textoCentrado4">Tener una planta en tu escritorio tiene beneficios apreciables y medibles. Influyen en la felicidad y creatividad.</p>
+        <center><a class="btn" href="contacto.html" id="buttonSection4">Contactanos</a></center>
+      </div>
+    </div>
+  </section>
+<!-- TERMINA SECTION 4  -->
+
+<!-- EMPIEZA SECTION 5 BLOG-->
+  <section>
+    <h3 class="h3defi tituloCentrado">Blog!</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="blog.html" id="sinSub">
+          <div class="col-md-12 blogPrueba animate__animated animate__backInLeft">
+            <img src="media/imagenBlog1.png" alt="imagenblog" class="mx-auto d-block img-fluid imgBlog">
+            <h5 id="subh5blog">HANDMADE</h5>
+            <h3 id="tith3blog">¿Cómo reproducir plantas?</h3>
+            <p class="pdefi">Te contamos tres formas fáciles de propagar para poder regalar.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="blog.html" id="sinSub">
+          <div class="col-md-12 blogPrueba animate__animated animate__backInUp">
+            <img src="media/imagenBlog2.png" alt="imagenblog" class="mx-auto d-block img-fluid imgBlog">
+            <h5 id="subh5blog">NOVEDAD</h5>
+            <h3 id="tith3blog">Lanzamiento Libro botánico</h3>
+            <p class="pdefi">Un libro dedicado a las plantas y su amplio universo.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="blog.html" id="sinSub">
+          <div class="col-md-12 blogPrueba animate__animated animate__backInRight">
+            <img src="media/imagenBlog3.png" alt="imagenblog" class="mx-auto d-block img-fluid imgBlog">
+            <h5 id="subh5blog">ESPACIO VERDE</h5>
+           <h3 id="tith3blog">Beneficios ocultos del cactus</h3>
+            <p class="pdefi">¿Sabías que ayudan a disminuir la radiación? Lee la nota acá.</p>
+          </div>
+        </a>
+      </div>
+      </div>
+
+        <div class="row">
+      <div class="col-md-12">
+        <a href="blog.html" id="sinSub">
+          <h5 class="h5defiBB">Ver todos los artículos</h5>
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- TERMINA SECTION 5  -->
+
+<!-- EMPIEZA SECTION 6  -->
+  <section>
+    <div class="row colorSection6">
+      <div class="col-md-12">
+        <h3 class="h3defi tituloCentrado">Video del mes</h3>
+        <p class="text-center w-responsive mx-auto mb-5 pdefi6">Compartimos tips para que puedas capacitarte en el universo de las plantas.</p>
+        <div class="video-responsive">
+          <iframe src="https://www.youtube.com/embed/Rz2mrcjOBIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TERMINA SECTION 6  -->
+
+<!-- EMPIEZA SECTION 7  -->
+  <section>
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="h3defi tituloCentrado">Contactanos</h3>
+        <p class="text-center w-responsive mx-auto mb-5 pdefi">Tenés alguna pregunta para hacernos? No dudes en contactarnos a través de este formulario. Nuestro team te ayudará al instante.</p>
+      <!--EMPIEZA EL FORMULARIO-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Ingresa tu nombre">
+                            <label for="name" class="pdefi7">Nombre* (requerido)</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="ejemplo@ejemplo.com">
+                            <label for="email" class="pdefi7">Mail* (requerido)</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+
+                        <label for="seleccionaproducto" class="pdefi7">En qué producto estás interesado/a:</label>
+        <select name="productos" class="pdefi7">
+          <option name= "r">Koke suculentas</option>
+          <option name= "cb">Jardines botánicos</option>
+          <option name= "l">Workshops y talleres</option>
+          <option name= "l">Láminas handmade</option>
+          <option name= "l">Otros</option>
+        </select>
+        <br>
+                </div>
+                </div>
+                </div>
+                <!--Grid row-->
+                                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message" class="pdefi7">Mensaje</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <div class="pdefi7"><input type="checkbox" name="acepto" value="1">   Acepto términos y condiciones</div>
+                      </div>
+                    </div>
+                  </div>
+                <!--Grid row-->
+              </form>
+            <div class="text-center text-md-left">
+              <a class="btn" href="404.html" id="buttonSection7">Enviar</a>
+            </div>
+        <!--Grid column-->
+    </div>
+  </div>
+</div>
+</section>
+<!-- TERMINA SECTION 7  -->
+
+<!-- EMPIEZA EL FOOTER  -->
+<footer>
+  <div class="row colorSectionF">
+    <div class="col-md-4">
+      <div class="col-md-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26297.08640363214!2d-58.490524529544096!3d-34.52478724321706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a6386ba5c9%3A0xb8039ed75861da4d!2sVicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1595012831845!5m2!1ses!2sar" width="350" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>  
+    </div>
+
+    <div class="col-md-4">
+      <div class="col-md-12">
+        <h3 id="tith3blog">Nuestros datos</h3>
+        <p class="w-responsive mx-auto mb-5 pdefiF"><img src="media/footer-mail.png" alt="mail" align="left" class="imgBordeF">hola@botanicastudio.com</p>
+        <p class="w-responsive mx-auto mb-5 pdefiF"><img src="media/footer-whatsapp.png" alt="mail" align="left" class="imgBordeF">+54 9 115 9888386</p>
+        <p class="w-responsive mx-auto mb-5 pdefiF"><img src="media/footer-address.png" alt="mail" align="left" class="imgBordeF">Av. Maipú 1420, Olivos, GBA</p>
+      </div> 
+    </div>
+
+    <div class="col-md-4">
+      <div class="col-md-12">
+        <h3 id="tith3blog">Gracias por visitarnos!</h3>
+        <p class="w-responsive mx-auto mb-5 fraseF font-italic">"...El arte es el placer de un espíritu que penetra en la naturaleza y descubre que también ésta tiene alma...."</p>
+      </div>  
+    </div>
+
+  </div>
+</footer>
+<!-- TERMINA EL FOOTER  -->
+
+</div> <!-- El que cierra el container fluid  -->
+
+
+
+
+ <!-- Esto sirve para que funcione bootstrap y material -->
+	<script src="js/jquery.js"></script><!-- Este lo bajo de jquery.com y elijo la opción Download the compressed, production jQuery 3.5.1 -->
+	<script src="js/bootstrap.bundle.min.js"></script> <!-- Están en la carpeta js que viene con bootstrap -->
+	<script src="js/bootstrap.min.js"></script> <!-- Están en la carpeta js que viene con bootstrap -->
+    <!-- Esto que viene abajo es para que me detecte el scroll por el nav que cambia de color -->
+  <script>
+      $(window).scroll(function(){
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 200);
+      });
+  </script>
+
+</body>
+</html>
